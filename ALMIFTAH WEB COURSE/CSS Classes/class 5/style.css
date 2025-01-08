@@ -1,0 +1,26 @@
+/* div ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+div ul li:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+} */
+
+.childtwo ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.parentdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(95, 95, 230);
+    padding: 8px;
+}

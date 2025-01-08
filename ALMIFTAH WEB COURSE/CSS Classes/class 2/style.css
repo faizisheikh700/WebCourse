@@ -1,0 +1,36 @@
+h1{
+    background-color: brown;
+    color: aqua;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: blue wavy underline;
+    text-transform: lowercase;
+
+
+}
+
+#face{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+/* h4{
+    background-color: blue;
+}
+
+p{
+    background-color: blue;
+} */
+
+.para{
+    background-color: blue ;
+    color: red;
+}
+
+h2{
+    text-shadow: 1px 1px #777879;
+}

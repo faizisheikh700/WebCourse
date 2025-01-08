@@ -1,0 +1,37 @@
+h1{
+    /* border-style: dashed;
+    border-color: red; */
+    /* border: 5px solid red; */
+    /* border-top: 4px solid aqua;
+    border-left: 4px dashed red;
+    border-bottom: 4px dotted green;
+    border-right: 4px solid yellow;
+    text-align: center;
+    background-color: rgb(147, 147, 202);
+    color: white;
+    text-shadow: 1px 0.5px chocolate; */
+
+}
+
+h4{
+    border: 1px solid rgb(211, 79, 79);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    font-style: oblique;
+
+} 
+
+h2{
+
+    text-align: center;
+    color: red;
+    background-color: red;
+
+}
