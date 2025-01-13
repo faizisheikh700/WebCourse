@@ -1,0 +1,30 @@
+.card{
+    border: 2px solid purple;
+    width: 120px;
+    height: 150px;
+    border-radius: 4px;
+    /* margin: auto;
+    margin-top: 9px; */
+    padding-bottom: 14px;
+    
+}
+
+#btn{
+    background-color: rgb(72, 72, 237);
+    color: white;
+    border-style: none;
+    border: 2px solid rgb(102, 102, 177);
+    font-size: 7px;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 6px 8px 30px rgb(225, 121, 225);
+}
+
+.parentdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
