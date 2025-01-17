@@ -1,0 +1,83 @@
+/* ----------------- navbar------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(172, 167, 167);
+}
+.tabs ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.search input {
+  width: 320px;
+  padding: 10px;
+  /* border; */
+}
+
+.tabs ul li {
+  font-size: 25px;
+}
+
+.tabs ul li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ------------------ HEROSECTION ---------------- */
+.herosection {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  /* background-image: url("https://pagecreative.co.uk/wp-content/uploads/2023/10/AdobeStock_223290240-1-2-scaled.jpeg");
+  background-size: cover; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text #heroptext{
+    color: white;
+}
+
+.text h1{
+    color: white;
+}
+.image img{
+    width: 450px;
+    border-radius: 50%;
+}
+/* ---------------------- CARDS-------------- */
+
+.card{
+    border: 2px solid purple;
+    width: 220px;
+    height: 250px;
+    border-radius: 4px;
+    /* margin: auto;
+    margin-top: 9px; */
+    padding-bottom: 14px;
+    
+}
+
+#btn{
+    background-color: rgb(72, 72, 237);
+    color: white;
+    border-style: none;
+    border: 2px solid rgb(102, 102, 177);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 6px 8px 30px rgb(225, 121, 225);
+}
+
+.parentdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
