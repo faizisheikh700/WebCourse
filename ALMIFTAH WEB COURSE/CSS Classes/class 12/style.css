@@ -1,0 +1,45 @@
+.anim{
+    width: 100px;
+    height: 70px;
+    /* background-color: red; */
+    position: relative;
+    left: 20px;
+    top: 20px;
+    animation: firstanimation 2s ease 5s infinite alternate-reverse;
+    /* background-image: url(); */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes firstanimation {
+    /* from{
+        width: 250px;
+        height: 250px;
+        background-color: red;
+    }
+    to{
+        width: 500px;
+        height: 500px;
+        background-color: pink;
+        border-radius: 50%;
+    } */
+     0%{
+        position: relative;
+        left: 20px;
+        top: 20px;
+        
+        background-color: red;
+        /* background-image: url("./images/1stpic.jpg");
+        background-size: cover; */
+
+     }
+
+    100%{
+
+        position: relative;
+        left: 700px;
+        background-color: purple;
+        /* background-image: url("./images/2ndpic.jpg");
+        background-size: cover; */
+
+    }
+}
