@@ -1,0 +1,47 @@
+.navbar{
+    background-color: rgb(105, 105, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.card{
+    border: 2px solid purple;
+    width: 220px;
+    height: 250px;
+    border-radius: 4px;
+    /* margin: auto;
+    margin-top: 9px; */
+    padding-bottom: 14px;
+}
+.parentdiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#btn{
+    background-color: rgb(72, 72, 237);
+    color: white;
+    border-style: none;
+    border: 2px solid rgb(102, 102, 177);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+@media only screen and (width: 300px) {
+    .navbar{
+        /* background-color: red; */
+
+    }
+    input{
+        display: none;
+    }
+    .parentdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
