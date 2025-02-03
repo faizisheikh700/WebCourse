@@ -1,0 +1,30 @@
+/* .box{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+@media only screen and (width: 400px){
+        .box{
+            background-color: red;
+        }    
+}
+
+@media only screen and (min-width: 300px)and (width: 400px) {
+    .box{
+        background-color: blue;
+    }
+    
+}
+ */
+
+ /* .navbar{
+    background-color: rgb(109, 109, 231);
+    display: flex;
+    justify-content: space-between;
+ }
+
+.tabs ul{
+    display: flex;
+    gap:15px;
+} */

@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 1.5rem;
+}
+
+.tabs ul{
+    display: flex;
+    gap: 20px;
+}
+
+.tabs ul li{
+    list-style: none;
+}
+.seacrh input{
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.main .fa-solid{
+    width: 2rem;
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .tabs ul li{
+        display: none;
+    }
+    .seacrh input{
+        display: none;
+    }
+
+    .main .fa-solid{
+        display: block;
+    }
+
+}
