@@ -1,16 +1,34 @@
-let time = "10am";
+// let time = "10am";
 
-console.log(time);
+// console.log(time);
 
-document.write(time);
-
-document.getElementById("txt").innerHTML = "I am Ali";
-
-document.getElementById("image").src =
-  "https://fromyouflowers.pk/wp-content/uploads/2023/07/1000x1000-standard-fruit-basket-500x500-1.jpg";
+// document.write(time);
 
 
 
-  function changeImage() {
-    document.getElementById("myImage").src = "<div className="" />Rectangle.png";
-}
+
+
+// function tabdeeli(){
+//   document.getElementById('txt').innerHTML = 'I am A Developer'
+// }
+
+
+
+
+
+
+
+// alert('Hello World')
+
+// let first = prompt('Enter Your First Name');
+// // console.log(first);
+// document.write(first);
+
+
+
+
+let firstNumber = +prompt('Enter First Number');
+let secondNumber = +prompt('Enter Second Number'); 
+
+let sum = firstNumber + secondNumber;
+document.write('sum of '+ firstNumber + ' and ' + secondNumber + ' is ' + sum);
