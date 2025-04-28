@@ -5,16 +5,20 @@ fetch('https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=
     .then(data => {
         console.log(data);
         if (data.articles && data.articles.length > 0) {
+          for (let i = 0; i < data.articles.length; i++) {
             getData.innerHTML += `
-          <div class="card m-3" style="width: 18rem;">
-            <img src="${data.articles[0].urlToImage}" class="card-img-top" alt="...">
+          <div class="mainDiv" >
+          <div class="cardImgDiv">
+            <img src="${data.articles[i].urlToImage}" class="cardImg" alt="...">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">${data.articles[0].title}</h5>
-              <p class="card-text">${data.articles[0].description}</p>
-              <a href="${data.articles[0].url}" class="btn btn-primary" target="_blank">Read more</a>
+              <h5 class="card">${data.articles[i].title}</h5>
+              <p class="card-text">${data.articles[i].description}</p>
+              <a href="${data.articles[i].url}" class="btn btn-primary" target="_blank">Read more</a>
             </div>
           </div>`;
-        } else {
+        } 
+      }else {
             getData.innerHTML += `<h1>No articles found</h1>`;
         }
     })
